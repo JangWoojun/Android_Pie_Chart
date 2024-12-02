@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         val pieChartView = findViewById<PieChartView>(R.id.chart)
-        pieChartView.setData(listOf(30f, 30f, 30f), listOf(Color.RED, Color.GREEN, Color.BLUE))
+        pieChartView.setData(listOf(1, 2, 3), listOf(Color.RED, Color.GREEN, Color.BLUE))
 
     }
 }
