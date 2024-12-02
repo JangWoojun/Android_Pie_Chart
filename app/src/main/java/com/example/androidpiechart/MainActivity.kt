@@ -1,5 +1,6 @@
 package com.example.androidpiechart
 
+import android.graphics.Color
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -16,5 +17,9 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+        val pieChartView = findViewById<PieChartView>(R.id.chart)
+        pieChartView.setData(listOf(30f, 30f, 30f), listOf(Color.RED, Color.GREEN, Color.BLUE))
+
     }
 }

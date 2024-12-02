@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PieChartView">
+        <attr name="colors" format="reference"/>
+        <attr name="percentages" format="reference"/>
+    </declare-styleable>
+    <string-array name="pie_percentages">
+        <item>20</item>
+        <item>30</item>
+        <item>50</item>
+    </string-array>
+
+    <integer-array name="pie_colors">
+        <item>@android:color/holo_red_light</item>
+        <item>@android:color/holo_orange_light</item>
+        <item>@android:color/holo_blue_light</item>
+    </integer-array>
+</resources>

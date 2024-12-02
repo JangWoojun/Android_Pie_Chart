@@ -9,8 +9,11 @@
     tools:context=".MainActivity">
 
     <com.example.androidpiechart.PieChartView
+        android:id="@+id/chart"
         android:layout_width="200dp"
-        android:layout_height="200dp"/>
+        android:layout_height="200dp"
+        app:colors="@array/pie_colors"
+        app:percentages="@array/pie_percentages"/>
 
 
 </LinearLayout>
